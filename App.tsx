@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import { HowItWorksPage } from './components/HowItWorksPage';
-import { SolutionsPage } from './components/SolutionsPage';
-import { PricingPage } from './components/PricingPage';
-import { ContactPage } from './components/ContactPage';
+import { HowItWorksPage } from './components/HowItWorksPage.tsx';
+import { SolutionsPage } from './components/SolutionsPage.tsx';
+import { PricingPage } from './components/PricingPage.tsx';
+import { ContactPage } from './components/ContactPage.tsx';
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
